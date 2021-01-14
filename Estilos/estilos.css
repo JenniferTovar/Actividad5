@@ -1,0 +1,42 @@
+p{
+font-size: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: justify;
+ }
+
+ h1{
+text-align: center;
+
+}
+
+body{
+background-color: rgb(230, 213, 216);
+}
+
+
+.redes{
+    height: 250px;
+    background-color: rgb(39, 37, 37);
+color: white;
+padding: 30px;
+text-align: center;
+}
+
+.iconos {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.red{
+   display: block; 
+   width: 60px;
+   display: inline;
+   margin: 20px;
+}
+
+.video{
+    text-align: center;
+}
+

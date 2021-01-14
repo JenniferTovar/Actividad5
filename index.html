@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ciberadicción</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="Estilos/estilos.css">
+</head>
+
+
+<body>
+
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(138, 78, 78);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"> <img src="Imagenes/logo.png" alt="" width="40px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Ciberadicción</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="prevención.html">Prevención y tratamiento</a>
+          </li>
+          <li class="nav-item dropdown">
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Imagenes/Imagen 1.jpg" class="d-block w-100" alt="..." height="550px">
+      </div>
+      <div class="carousel-item">
+        <img src="Imagenes/Imagen 2.jpg" class="d-block w-100" alt="..." height="550px">
+      </div>
+      <div class="carousel-item">
+        <img src="Imagenes/Imagen 3.jpg" class="d-block w-100" alt="..." height="550px">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+  <br>
+  <br>
+
+  <div class="container">
+<div class="row">
+
+  <div class="col-ig-6">
+<form action="">
+
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Primer Nombre" aria-label="Segundo Nombre">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Primer Apellido" aria-label="Segundo Apellido">
+    </div>
+  </div>
+
+<div class="row">
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Ciudad</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Departamento</label>
+    <select id="inputState" class="form-select">
+      <option selected> Departamentos</option>
+      
+      <option>Amazonas</option>
+      <option>Antioquia</option>
+      <option>Arauca</option>
+      <option>Atlántico</option>
+      <option>Bolívar</option>
+      <option>Boyacá</option>
+      <option>Caldas</option>
+      <option>Caquetá</option>
+      <option>Casanare</option>
+      <option>cauca</option>
+      <option>Cesar</option>
+      <option>Chocó</option>
+      <option>Córdoba</option>
+      <option>Cundinamarca</option>
+      <option>Guanía</option>
+      <option>Guaviare</option>
+      <option>Huila</option>
+      <option>La guajira</option>
+      <option>Magdalena</option>
+      <option>Meta</option>
+      <option>Nariño</option>
+      <option>Norte de santander</option>
+      <option>Putumayo</option>
+      <option>Quindío</option>
+      <option>Risaralda</option>
+      <option>San andres y providencia</option>
+      <option>Santander</option>
+      <option>Sucre</option>
+      <option>Tolima</option>
+      <option>Valle del cauca</option>
+      <option>Vaupés</option>
+      <option>Vichada</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Codigo Postal</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form>
+
+
+</div>
+
+
+</form>
+
+</div>
+
+</div>
+
+  </div>
+
+
+  <div class="container">
+
+    <h1 class="definicion" style="color: brown;">¿Que es la Ciberadicción?</h1>
+    <br>
+
+    <div class="texto">
+      <p>El internet se ha convertido en una herramienta de comunicación y acceso a información
+        universal, que posee horarios ilimitados y que, además, es de uso fácil y práctico por lo que es
+        habitual que las personas lo utilicen y lo conviertan en un instrumento indispensable en su vida
+        diaria. El internet se ha convertido en la fuente de información más utilizada hoy
+        en día que además está en expansión de forma progresiva, este se caracteriza por e la conexión de miles de
+        millones de computadoras en todo el planeta para
+        intercambiar información, y a su vez como medio de comunicación para interactuar con diferentes personas.</p>
+    </div>
+
+
+    <div>
+      <p>De acuerdo a lo anterior, es que este, puede generar en la persona, una conducta normal
+        placentera, siendo esta
+        susceptible
+        de convertirse en un
+        comportamiento adictivo en el individuo por su uso inadecuado. Los componentes fundamentales de los trastornos
+        adictivos serían la pérdida de control y la dependencia. Por lo tanto, lo importante en la
+        adicción no es la actividad concreta que genera la dependencia, sino la relación que se
+        establece con ella. Es una relación negativa, incluso destructiva que el sujeto se muestra
+        incapaz de controlar. La adicción a Internet puede considerarse una adicción específicamente psicológica con
+        características comunes a
+        otro tipo de adicciones: pérdida de control, aparición de
+        síndrome de abstinencia, fuerte dependencia psicológica, interferencia en la vida cotidiana y pérdida de interés
+        por otras actividades.</p>
+    </div>
+
+    <div>
+      <p>La adicción a Internet es un
+        deterioro en el control de su uso que se manifiesta como un conjunto de síntomas cognitivos,
+        conductuales y fisiológicos. Es decir, la persona 'net dependiente' realiza un uso excesivo de
+        Internet lo que le genera una distorsión de sus objetivos personales, familiares o profesionales. Actualmente el
+        internet está generando nuevas adicciones,
+        convirtiéndose en nuevos desafíos en el campo de la psiquiatría como el desarrollo de patologías
+        que están asociadas al uso excesivo de esta tecnología, como: el placer excesivo de estar en
+        línea; irritabilidad o síntomas depresivos al no estar conectados; deterioro de las relaciones
+        familiares y sociales; al igual que negligencia laboral.</p>
+    </div>
+
+
+    <div>
+      <p>El medio en el que se desenvuelve la adicción acarrea también una serie de cambios
+        psicológicos negativos, consistentes en alteraciones del humor, ansiedad o impaciencia
+        por la lentitud de las conexiones o por no encontrar lo que se busca o a quien se busca,
+        estado de conciencia alterado, irritabilidad en caso de
+        interrupción, incapacidad para salirse de la pantalla, entre otras.</p>
+    </div>
+
+  </div>
+
+  <div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/y9pwZi71QEQ" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    </div>
+
+  <div class="redes">
+    <h2 style="font-size: 19px;">Redes Sociales:</h2>
+    <br>
+    <ul class="iconos">
+      <li class="red"> <a href="https://www.facebook.com/jenifer.a.tovar/"> <img src="Imagenes/Logo1.png" alt="" width="45"
+            height="45"></a></li>
+            <li class="red"> <a href="https://www.instagram.com/alejaa_mt/"> <img src="Imagenes/Logo2.jpg" alt="" width="45"
+              height="45"></a></li>
+              <li class="red"> <a href="https://api.whatsapp.com/send?phone=3023476442"> <img src="Imagenes/Logo3.png" alt="" width="45"
+                height="45"></a></li> 
+                <li class="red"> <a href="https://www.youtube.com/channel/UCbBaKkdbFibeQU8ZwgJMDpA?view_as=subscriber"> <img src="Imagenes/Logo4.png" alt="" width="45"
+                  height="45"></a></li> 
+    </ul>
+
+ <br>
+
+   <footer>
+      <h2 style="font-size: 18px;">Información de contacto</h2>
+      
+  <pre>Correo Electronico: jenifer.alejandratovar13@gmail.com</pre>
+  Telefono: +57 3023476442
+   </footer>
+  </div>
+  
+
+
+
+
+<script src="scrips/scrip.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
